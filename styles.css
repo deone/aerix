@@ -5,31 +5,31 @@ body{
 	margin:0px;
 	background-color:#cccccc;
 }
-img{
+img {
 	border:none;
 	padding:none;
 }
-form{
+form	{
 	margin:0px;
 }
-form input{
+form input  {
 	margin:0px;
 }
-.blockDisplay{
+.blockDisplay	{
 	display:block;
 }
-.boldText{
+.boldText   {
 	font-weight:bold;
 }
-.bottomBg_cell{
+.bottomBg_cell	{
 	height:95px;
 	background: url(images/bottom_bg.jpg) repeat-x;
 }
-.bottom_greyMatter{
+.bottom_greyMatter  {
 	height:147px;
 	background-color:#e6e6e6;
 }
-.bottom_tinyBar{
+.bottom_tinyBar	{
 	height:1px;
 	background-color:#ffffff;
 	width:100%;
@@ -43,7 +43,7 @@ form input{
 	top:-3px;
 	left:0px;
 }
-.breadcrumbStyle_link:hover{
+.breadcrumbStyle_link:hover {
 	color:#666666;
 }
 .clientHolder{
@@ -57,7 +57,7 @@ form input{
 	color:#cc9900;
 	text-decoration:none;
 }
-.clientLink:hover{
+.clientLink:hover   {
 	color:#000000;
 }
 .clientLink_not{
@@ -105,7 +105,6 @@ form input{
 }
 .generalText_2{
 	font-family:segoe ui, sans-serif;
-	/*font-size:12px;*/
 	font-size:13px;
 	color:#666666;
 }
@@ -150,7 +149,7 @@ form input{
 	color:#cc9900;
 	text-decoration:none;
 }
-.partnerLink:hover{
+.partnerLink:hover  {
 	color:#000000;
 }
 .partnersSection{
@@ -271,4 +270,27 @@ form input{
     border: solid 1px #ddd;
     background-color: #f5f5f5;
     padding: 5px;
+}
+
+
+ul.menu	{
+    float: left;
+    border: solid 1px #000;
+    width: 250px;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    text-transform: capitalize;
+}
+ul.menu li  {
+}
+.content    {
+    float: left;
+    border: solid 1px #000;
+    width: 200px;
+    margin-left: 20px;
+}
+.clear-float	{
+    clear: both;
+    float: none;
 }

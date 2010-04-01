@@ -1,21 +1,54 @@
- <?
-	$i = $_REQUEST["i"];
+<ul class="menu">
+    <li>materials / equipment procurement
+	<ul>
+	    <li>oil tools</li>
+	    <li>electrical equipment</li>
+	    <li>Rotating equipment</li>
+	    <li>heavy equipment</li>
+	    <li>inspection equipment</li>
+	    <li>instrument &amp; control equipment</li>
+	    <li>water treatment equipment</li>
+	    <li>safety materials</li>
+	    <li>pipeline equipment</li>
+	</ul>
+    </li>
+    <li>consultancy services
+	<ul>
+            <li>Logistics and Supply Chain Consulting</li>
+	    <li>Strategy Consulting</li>
+	    <li>Specialized Technical Consulting for the Oil and Gas industry</li>
+	</ul>
+    </li>
+    <li>onshore &amp; offshore engineering services
+	<ul>
+	    <li>Marine Logistics</li>
+            <li>Corrosion Protection</li>
+	    <li>Pipeline Coatings</li>
+	    <li>Data Center Management</li>
+	    <li>Call Center Management</li>
+	</ul>
+    </li>
+</ul>
+<div class="content"></div>
+<div class="clear-float"></div>
+<?
+	//$i = $_REQUEST["i"];
 ?>
-<table cellspacing="0" cellpadding="0" class="mainContent_tableContainer">
+<!--<table cellspacing="0" cellpadding="0" class="mainContent_tableContainer">
 <tr>
 	<td align="left" valign="top" class="contentArea_containerCell" id="contentArea_containerCell_about">
     	<div class="pageIndicator_container">
-        	<img src="images/pageIndicator_services.jpg" />
-            <? if( isset( $i ) ){ ?>
-            	<a href="services.php" class="breadcrumbStyle_link">
+        	<img src="images/pageIndicator_services.jpg" />-->
+            <? //if( isset( $i ) ){ ?>
+            	<!--<a href="services.php" class="breadcrumbStyle_link">
                     [ See all Services ]
-                </a>
-                <a href="javascript:history.back()" class="breadcrumbStyle_link">
+                </a>-->
+                <!--<a href="javascript:history.back()" class="breadcrumbStyle_link">
                     [ Back ]
-                </a>
-            <? } ?>
+                </a>-->
+            <? //} ?>
             
-        </div>
+        <!--</div>
         <div id="servicesDetails_container" class="generalText_2 details_container">
             <ul class="servicesList">
             	<li class="servicesListItem" id="servicesListItem_MaterialsProcurement">
@@ -100,7 +133,7 @@
                     </ul>
                 </li><!--end listItem-->
             </ul><!--end list-->
-        </div>
+        </div>-->
        
         <script language="javascript" type="text/javascript">
 			showHideServicesItems( <?=$i;?> );			
@@ -139,6 +172,6 @@
 				return document.getElementById( elementId );
 			}
 		</script>
-    </td>
+    <!--</td>
 </tr>
-</table>
+</table>-->
