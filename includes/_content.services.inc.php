@@ -1,35 +1,38 @@
 <ul class="menu">
-    <li>materials / equipment procurement
+    <li class="category">
+	<a href="#">Materials / Equipment Procurement</a>
 	<ul>
-	    <li>oil tools</li>
-	    <li>electrical equipment</li>
-	    <li>Rotating equipment</li>
-	    <li>heavy equipment</li>
-	    <li>inspection equipment</li>
-	    <li>instrument &amp; control equipment</li>
-	    <li>water treatment equipment</li>
-	    <li>safety materials</li>
-	    <li>pipeline equipment</li>
+	    <li>Oil Tools</li>
+	    <li>Electrical Equipment</li>
+	    <li>Rotating Equipment</li>
+	    <li>Heavy Equipment</li>
+	    <li>Inspection Equipment</li>
+	    <li>Instrument &amp; Control equipment</li>
+	    <li>Water Treatment Equipment</li>
+	    <li>Safety Materials</li>
+	    <li>Pipeline Equipment</li>
 	</ul>
     </li>
-    <li>consultancy services
+    <li class="category">
+	<a href="#">Consultancy Services</a>
 	<ul>
-            <li>Logistics and Supply Chain Consulting</li>
+	    <li>Logistics and Supply Chain Consulting</li>
 	    <li>Strategy Consulting</li>
 	    <li>Specialized Technical Consulting for the Oil and Gas industry</li>
 	</ul>
     </li>
-    <li>onshore &amp; offshore engineering services
+    <li class="category">
+	<a href="#">Onshore &amp; Offshore Engineering Services</a>
 	<ul>
 	    <li>Marine Logistics</li>
-            <li>Corrosion Protection</li>
+	    <li>Corrosion Protection</li>
 	    <li>Pipeline Coatings</li>
 	    <li>Data Center Management</li>
 	    <li>Call Center Management</li>
 	</ul>
     </li>
 </ul>
-<div class="content"></div>
+<div class="body"></div>
 <div class="clear-float"></div>
 <?
 	//$i = $_REQUEST["i"];

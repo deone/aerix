@@ -9,7 +9,7 @@
 <title>Aerix Global Solutions - About Us</title>
 <link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
-<body id="contactPage">
+<body>
 	<? include( "includes/__template.inc.php" ); ?>
 </body>
 </html>

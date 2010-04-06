@@ -37,7 +37,7 @@
                             </table>
                         </div>
                         <div id="logo_container">
-                        	<a href="index.php"><img src="images/logo.jpg" /></a>
+                            <a href="index.php"><img src="images/logo.jpg" /></a>
                         </div>
                     </div><!--end navAndLogo_container-->
                     

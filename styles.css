@@ -4,6 +4,7 @@
 body{
 	margin:0px;
 	background-color:#cccccc;
+	font: 0.8em/1.4 segoe ui, sans-serif;
 }
 img {
 	border:none;
@@ -35,8 +36,7 @@ form input  {
 	width:100%;
 }
 .breadcrumbStyle_link{
-	font-family:segoe ui, sans-serif;
-	font-size:12px;
+	
 	color:#E68200;
 	text-decoration:none;
 	position:relative;
@@ -273,17 +273,27 @@ form input  {
 }
 
 
-ul.menu	{
+ul.menu    {
     float: left;
-    border: solid 1px #000;
     width: 250px;
-    padding: 0px;
     margin: 0px;
-    list-style-type: none;
+    padding: 0px;
+    border: solid 1px #eee;
 }
-ul.menu li  {
+ul.menu li.category {
+    list-style: inside url("images/switch_plus.gif");
 }
-.content    {
+ul.menu li.category ul li   {
+    list-style-image: none;
+}
+ul.menu li.category a	{
+    color:#e68200;
+    text-decoration: none;
+}
+ul.menu li.visible   {
+    list-style-image: url("images/switch_minus.gif");
+}
+.body	{
     float: left;
     border: solid 1px #000;
     width: 200px;
