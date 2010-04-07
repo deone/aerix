@@ -24,7 +24,7 @@
                                     	<img src="images/link_sep.jpg" class="blockDisplay" />
                                     </div>
                                     <div class="floatLeft">
-                                    	<a href="services.php"><img src="images/link_services.jpg" class="blockDisplay" /></a>
+                                    	<a href="services/index.php"><img src="images/link_services.jpg" class="blockDisplay" /></a>
                                     </div>
                                     <div class="floatLeft">
                                     	<img src="images/link_sep.jpg" class="blockDisplay" />

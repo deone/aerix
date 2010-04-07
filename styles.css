@@ -275,23 +275,38 @@ form input  {
 
 ul.menu    {
     float: left;
-    width: 250px;
     margin: 0px;
     padding: 0px;
-    border: solid 1px #eee;
+    font-size: 0.9em;
+}
+ul.menu a   {
+    display: block;
 }
 ul.menu li.category {
-    list-style: inside url("images/switch_plus.gif");
-}
-ul.menu li.category ul li   {
-    list-style-image: none;
+    list-style: none;
+    margin-bottom: 2px;
 }
 ul.menu li.category a	{
-    color:#e68200;
+    color:#E68200;
     text-decoration: none;
+    line-height: 1.8em;
+    background-color: #eee;
+    padding: 0 5px 0 5px;
 }
-ul.menu li.visible   {
-    list-style-image: url("images/switch_minus.gif");
+ul.menu li.category ul	{
+    background-color: #fff;
+    padding: 0px;
+}
+ul.menu li.category ul li   {
+    list-style: none;
+}
+ul.menu li.category ul li a {
+    background-color: #fff;
+    margin-top: 2px;
+    color: #adadad;
+}
+ul.menu li.category ul li a:hover   {
+    color: #3d3d3d;
 }
 .body	{
     float: left;
