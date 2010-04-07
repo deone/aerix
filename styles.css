@@ -4,7 +4,7 @@
 body{
 	margin:0px;
 	background-color:#cccccc;
-	font: 0.8em/1.4 segoe ui, sans-serif;
+	font: 0.75em/1.4 segoe ui, sans-serif;
 }
 img {
 	border:none;
@@ -51,9 +51,6 @@ form input  {
 	margin:10px;
 }
 .clientLink{
-	font-family:segoe ui, sans-serif;
-	font-size:11px;
-	font-size:13px;
 	color:#cc9900;
 	text-decoration:none;
 }
@@ -61,16 +58,10 @@ form input  {
 	color:#000000;
 }
 .clientLink_not{
-	font-family:segoe ui, sans-serif;
-	font-size:11px;
-	font-size:13px;
 	color:#cc9900;
 	text-decoration:none;
 }
 .clientsSection{
-	font-family:segoe ui, sans-serif;
-	/*font-size:11px;*/
-	font-size:13px;
 	color:#232323;
 }
 .copyrightArea_cell{
@@ -98,14 +89,9 @@ form input  {
 	float:right;
 }
 .generalText{
-	font-family:segoe ui, sans-serif;
-	/*font-size:11px;*/
-	font-size:13px;
 	color:#666666;
 }
 .generalText_2{
-	font-family:segoe ui, sans-serif;
-	font-size:13px;
 	color:#666666;
 }
 .itemPic_cell{
@@ -143,9 +129,6 @@ form input  {
 	float:left;
 }
 .partnerLink{
-	font-family:segoe ui, sans-serif;
-	font-size:11px;
-	font-size:13px;
 	color:#cc9900;
 	text-decoration:none;
 }
@@ -153,9 +136,6 @@ form input  {
 	color:#000000;
 }
 .partnersSection{
-	font-family:segoe ui, sans-serif;
-	/*font-size:11px;*/
-	font-size:13px;
 	color:#232323;
 }
 .rightCell{
@@ -163,17 +143,12 @@ form input  {
 }
 .servicesList{
 	position:relative;
-	#top:-14px;
 	left:-12px;
 }
 .servicesListItem{
-	font-family:segoe ui, sans-serif;
-	/*font-size:12px;*/
-	font-size:14px;
 	font-weight:bold;
 	color:#A37200;
 	margin-bottom:12px;
-	#margin-bottom:10px;
 }
 .servicesSubList{
 	position:relative;
@@ -182,9 +157,6 @@ form input  {
 	left:-13px;
 }
 .servicesSubListItem{
-	font-family:segoe ui, sans-serif;
-	/*font-size:12px;*/
-	font-size:13px;
 	font-weight:normal;
 	color:#222222;
 	margin-bottom:3px;
@@ -277,7 +249,7 @@ ul.menu    {
     float: left;
     margin: 0px;
     padding: 0px;
-    font-size: 0.9em;
+    /*font-size: 0.9em;*/
 }
 ul.menu a   {
     display: block;
@@ -287,7 +259,7 @@ ul.menu li.category {
     margin-bottom: 2px;
 }
 ul.menu li.category a	{
-    color:#E68200;
+    color:#e68200;
     text-decoration: none;
     line-height: 1.8em;
     background-color: #eee;
