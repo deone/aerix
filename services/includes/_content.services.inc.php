@@ -2,33 +2,33 @@
     <li class="category">
 	<a href="#">Materials / Equipment Procurement</a>
 	<ul>
-	    <li>Oil Tools</li>
-	    <li>Electrical Equipment</li>
-	    <li>Rotating Equipment</li>
-	    <li>Heavy Equipment</li>
-	    <li>Inspection Equipment</li>
-	    <li>Instrument &amp; Control equipment</li>
-	    <li>Water Treatment Equipment</li>
-	    <li>Safety Materials</li>
-	    <li>Pipeline Equipment</li>
+	    <li><a href="#">Oil Tools</a></li>
+	    <li><a href="#">Electrical Equipment</a></li>
+	    <li><a href="#">Rotating Equipment</a></li>
+	    <li><a href="#">Heavy Equipment</a></li>
+	    <li><a href="#">Inspection Equipment</a></li>
+	    <li><a href="#">Instrument &amp; Control equipment</a></li>
+	    <li><a href="#">Water Treatment Equipment</a></li>
+	    <li><a href="#">Safety Materials</a></li>
+	    <li><a href="#">Pipeline Equipment</a></li>
 	</ul>
     </li>
     <li class="category">
 	<a href="#">Consultancy Services</a>
 	<ul>
-	    <li>Logistics and Supply Chain Consulting</li>
-	    <li>Strategy Consulting</li>
-	    <li>Specialized Technical Consulting for the Oil and Gas industry</li>
+	    <li><a href="#">Logistics and Supply Chain Consulting</a></li>
+	    <li><a href="#">Strategy Consulting</a></li>
+	    <li><a href="#">Specialized Technical Consulting</a></li>
 	</ul>
     </li>
     <li class="category">
 	<a href="#">Onshore &amp; Offshore Engineering Services</a>
 	<ul>
-	    <li>Marine Logistics</li>
-	    <li>Corrosion Protection</li>
-	    <li>Pipeline Coatings</li>
-	    <li>Data Center Management</li>
-	    <li>Call Center Management</li>
+	    <li><a href="#">Marine Logistics</a></li>
+	    <li><a href="#">Corrosion Protection</a></li>
+	    <li><a href="#">Pipeline Coatings</a></li>
+	    <li><a href="#">Data Center Management</a></li>
+	    <li><a href="#">Call Center Management</a></li>
 	</ul>
     </li>
 </ul>
