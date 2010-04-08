@@ -10,6 +10,6 @@
 	<link rel="stylesheet" type="text/css" href="styles.css" />
     </head>
     <body>
-	<? include( "includes/__template.inc.php" ); ?>
+	<? include( "__template.inc.php" ); ?>
     </body>
 </html>
