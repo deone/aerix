@@ -160,7 +160,6 @@ form input  {
 	font-weight:normal;
 	color:#222222;
 	margin-bottom:3px;
-	#margin-bottom:0px;
 }
 .testBackground{
 	background-color:#ff0000;
@@ -244,42 +243,61 @@ form input  {
     padding: 5px;
 }
 
+h1  {
+    margin-top: 0px;
+}
+.service_type	{
+    color:#e68200;
+    background-color: #eee;
+}
+.services_list	{
+    padding: 0px;
+    margin: 0px;
+}
+.services_list li   {
+    list-style: none;
+}
+.services_list li a {
+    background-color: #fff;
+    margin-top: 2px;
+    color: #adadad;
+    text-decoration: none;
+}
+.services_list li a:hover   {
+    color: #3d3d3d;
+}
 
+.services_box	{
+    float: left;
+    border: solid 1px #eee;
+    margin: 0px 0px 0px 20px;
+    width: 230px;
+}
 ul.menu    {
     float: left;
     margin: 0px;
     padding: 0px;
-    /*font-size: 0.9em;*/
 }
-ul.menu a   {
-    display: block;
-}
-ul.menu li.category {
+ul.menu li  {
     list-style: none;
-    margin-bottom: 2px;
 }
-ul.menu li.category a	{
-    color:#e68200;
+
+.services_box .service_type {
+    font-weight: normal;
+    margin: 0;
+}
+ul.menu .service_type	{
+    display: block;
     text-decoration: none;
-    line-height: 1.8em;
-    background-color: #eee;
+}
+.services_box .service_type, .services_box .services_list, ul.menu .service_type  {
+    line-height: 2em;
     padding: 0 5px 0 5px;
 }
-ul.menu li.category ul	{
-    background-color: #fff;
-    padding: 0px;
+.services_box .service_type, .services_box .services_list   {
+    font-size: 90%;
 }
-ul.menu li.category ul li   {
-    list-style: none;
-}
-ul.menu li.category ul li a {
-    background-color: #fff;
-    margin-top: 2px;
-    color: #adadad;
-}
-ul.menu li.category ul li a:hover   {
-    color: #3d3d3d;
-}
+
 .body	{
     float: left;
     border: solid 1px #000;
