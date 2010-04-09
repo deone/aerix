@@ -5,7 +5,7 @@
         	<img src="images/pageIndicator_about.jpg" />
         </div>
         <div id="aboutDetails_container" class="generalText_2 details_container">
-        	Aerix Global Solutions was incorporated in 2007 to deliver home-grown but broad based services to Nigeria’s medium to large scale industries. Aerix’s specialized services enable these industries to focus on their core competencies, extracting optimum value from operations by eliminating time consuming and resource heavy support services such as materials procurements and man power development.
+        	Aerix Global Solutions was incorporated in 2007 to deliver home-grown but broad-based services to the sub-Saharan Oil &amp; Gas industry. Aerix&apos;s technology-driven operations and specialized services enable these industry to focus on its core competencies, extracting optimum value from operations by eliminating time-consuming and resource-heavy support services such as materials procurements and manpower development.
             <br /><br /><br />
             <div class="partnersSection">
             	<b>Partners</b><br>

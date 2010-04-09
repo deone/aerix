@@ -3,8 +3,9 @@
 
 body{
 	margin:0px;
-	background-color:#cccccc;
+	background-color:#ccc;
 	font: 0.75em/1.4 segoe ui, sans-serif;
+	color: #666;
 }
 img {
 	border:none;
@@ -260,11 +261,11 @@ h1  {
 .services_list li a {
     background-color: #fff;
     margin-top: 2px;
-    color: #adadad;
+    color: #666;
     text-decoration: none;
 }
 .services_list li a:hover   {
-    color: #3d3d3d;
+    color: #000;
 }
 
 .services_box	{
