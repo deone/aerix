@@ -289,12 +289,14 @@ ul.menu li  {
 ul.menu .service_type	{
     display: block;
     text-decoration: none;
+    margin-bottom: 2px;
 }
-.services_box .service_type, .services_box .services_list, ul.menu .service_type  {
+.services_box .service_type, 
+.services_box .services_list, 
+ul.menu .service_type, 
+ul.menu .services_list	{
     line-height: 2em;
     padding: 0 5px 0 5px;
-}
-.services_box .service_type, .services_box .services_list   {
     font-size: 90%;
 }
 

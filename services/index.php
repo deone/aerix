@@ -1,5 +1,4 @@
 <?php
-    //header( "Location: underconstruction.html" );
     $contentFile = "_content.services.inc.php";
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -9,16 +8,7 @@
 	<title>Aerix Global Solutions - Services</title>
 	<link rel="stylesheet" type="text/css" href="../styles.css" />
 	<script type="text/javascript" src="../js/jquery.js"></script>
-	<script type="text/javascript">
-	    $(function()    {
-
-		$("ul.menu li.category a").click(function() {
-		    $(this).next().slideToggle();
-		    return false;
-		}).next().hide();
-
-	    });
-	</script>
+	<script type="text/javascript" src="../js/menu.js"></script>
     </head>
     <body>
 	<? include( "__template.inc.php" ); ?>
