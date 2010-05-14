@@ -17,6 +17,12 @@ form	{
 form input  {
 	margin:0px;
 }
+h3  {
+    color: #000;
+}
+.summary    {
+    font-style: italic;
+}
 .blockDisplay	{
 	display:block;
 }
@@ -128,6 +134,7 @@ form input  {
 }
 .partnerHolder{
 	float:left;
+	margin-right: 20px;
 }
 .partnerLink{
 	color:#cc9900;
