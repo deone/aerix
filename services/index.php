@@ -13,11 +13,12 @@
     <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Aerix Global Solutions - Services</title>
-	<link rel="stylesheet" type="text/css" href="../styles.css" />
-	<script type="text/javascript" src="../js/jquery.js"></script>
-	<script type="text/javascript" src="../js/menu.js"></script>
+	<link rel="stylesheet" type="text/css" href="../reset.css"/>
+	<link rel="stylesheet" type="text/css" href="../styles.css"/>
     </head>
     <body>
 	<? include( "__template.inc.php" ); ?>
     </body>
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/menu.js"></script>
 </html>

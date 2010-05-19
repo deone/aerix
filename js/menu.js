@@ -1,6 +1,6 @@
 $(function()    {
 
-    $("ul.menu .service_type").click(function() {
+    $("ul.menu .nav").click(function() {
 	$(this).next().slideToggle();
 	return false;
     }).next().hide();

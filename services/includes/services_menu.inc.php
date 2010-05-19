@@ -1,7 +1,7 @@
 <ul class="menu">
     <li>
-	<a class="service_type" href="#">Materials / Equipment Procurement</a>
-	<ul class="services_list">
+	<a class="nav" href="#">Materials / Equipment Procurement</a>
+	<ul class="sub_nav">
 	    <li><a href="#">Oil Tools</a></li>
 	    <li><a href="#">Electrical Equipment</a></li>
 	    <li><a href="#">Rotating Equipment</a></li>
@@ -14,16 +14,16 @@
 	</ul>
     </li>
     <li>
-	<a class="service_type" href="#">Consultancy Services</a>
-	<ul class="services_list">
+	<a class="nav" href="#">Consultancy Services</a>
+	<ul class="sub_nav">
 	    <li><a href="#">Logistics and Supply Chain Consulting</a></li>
 	    <li><a href="#">Strategy Consulting</a></li>
 	    <li><a href="#">Specialized Technical Consulting</a></li>
 	</ul>
     </li>
     <li>
-	<a class="service_type" href="#">Onshore &amp; Offshore Engineering Services</a>
-	<ul class="services_list">
+	<a class="nav" href="#">Onshore &amp; Offshore Engineering Services</a>
+	<ul class="sub_nav">
 	    <li><a href="#">Marine Logistics</a></li>
 	    <li><a href="#">Corrosion Protection</a></li>
 	    <li><a href="#">Pipeline Coatings</a></li>

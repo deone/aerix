@@ -1,22 +1,9 @@
 @charset "utf-8";
-/* CSS Document */
 
 body	{
-    margin:0px;
-    font: 0.75em/1.4 segoe ui, sans-serif;
+    font: 0.7em/1.4 segoe ui, sans-serif;
     color: #666;
     background: url(images/topGrad_bg.jpg) repeat-x;
-}
-h1  {
-    margin-top: 0px;
-    padding-left: 20px;
-}
-h3  {
-    color: #000;
-}
-img {
-    border:none;
-    padding:none;
 }
 #wrapper    {
     margin-top: 50px;
@@ -31,14 +18,12 @@ img {
     background: url(images/navAndLogo_container_bg.jpg) repeat-x;
 }
 #nav	{
-    padding-top: 20px;
-    padding-left: 0px;
-    margin-bottom: 0px;
+    margin-top: 35px;
     width: 450px;
     float: left;
+    height: 22px;
 }
 #nav li	{
-    list-style: none;
     display: inline;
 }
 #logo	{
@@ -61,11 +46,7 @@ img {
 .page_title {
     margin-bottom: 20px;
 }
-#service_indicator  {
-    list-style: none;
-    padding: 0px;
-    margin: 0px;
-}
+/* Home */
 #service_indicator li	{
     display: inline;
 }
@@ -74,6 +55,43 @@ img {
 }
 #services .margin_right	{
     margin-right: 19px;
+}
+/* About/Services */
+#about ul.menu	{
+    width: 200px;
+}
+#services ul.menu   {
+}
+ul.menu    {
+    float: left;
+    margin-right: 20px;
+}
+ul.menu .nav	{
+    display: block;
+    text-decoration: none;
+    margin-bottom: 2px;
+}
+ul.menu .nav, ul.menu .sub_nav    {
+    line-height: 2em;
+    padding: 0 5px 0 5px;
+    font-size: 90%;
+}
+.nav	{
+    color:#e68200;
+    background-color: #eee;
+}
+.sub_nav    {
+    padding: 0px;
+    margin: 0px;
+}
+.sub_nav li a	{
+    background-color: #fff;
+    margin-top: 2px;
+    color: #666;
+    text-decoration: none;
+}
+.subnav li a:hover  {
+    color: #000;
 }
 #footer	{
     height: 95px;
@@ -87,55 +105,14 @@ img {
     height: 29px;
     background: url(images/pageContentBody_cap_bg.jpg) repeat-x;
 }
-.service_type	{
-    color:#e68200;
-    background-color: #eee;
-}
-.services_list	{
-    padding: 0px;
-    margin: 0px;
-}
-.services_list li   {
-    list-style: none;
-}
-.services_list li a {
-    background-color: #fff;
-    margin-top: 2px;
-    color: #666;
-    text-decoration: none;
-}
-.services_list li a:hover   {
-    color: #000;
-}
 .services_box	{
     float: left;
     border: solid 1px #eee;
     width: 230px;
 }
-ul.menu    {
-    float: left;
-    margin: 0px;
-    padding: 0px;
-}
-ul.menu li  {
-    list-style: none;
-}
 .services_box .service_type {
     font-weight: normal;
     margin: 0;
-}
-ul.menu .service_type	{
-    display: block;
-    text-decoration: none;
-    margin-bottom: 2px;
-}
-.services_box .service_type, 
-.services_box .services_list, 
-ul.menu .service_type, 
-ul.menu .services_list	{
-    line-height: 2em;
-    padding: 0 5px 0 5px;
-    font-size: 90%;
 }
 .body	{
     float: left;

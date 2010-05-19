@@ -7,7 +7,8 @@
     <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Aerix Global Solutions - Home page</title>
-	<link rel="stylesheet" type="text/css" href="styles.css" />
+	<link rel="stylesheet" type="text/css" href="reset.css"/>
+	<link rel="stylesheet" type="text/css" href="styles.css"/>
     </head>
     <body>
 	<? include( "__template.inc.php" ); ?>
