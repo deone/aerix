@@ -20,7 +20,7 @@
 		<img src="images/mainPic.jpg" />
 	    </div>
 	</div>
-	<div class="content">
+	<div id="content">
 	    <div class="gradient"></div>
 	    <? @include( "includes/" . $contentFile ); ?>
 	</div>
