@@ -35,6 +35,10 @@ body	{
     background: url(images/majorBox_bg.gif) no-repeat;
     padding: 2px;
 }
+.gradient   {
+    height: 29px;
+    background: url(images/pageContentBody_cap_bg.jpg) repeat-x;
+}
 #content    {
     background: url(images/pageContentBody_shoe_bg.jpg) repeat-x bottom;
     padding-bottom: 20px;
@@ -47,11 +51,13 @@ h1  {
     padding-bottom: 20px;
 }
 h2  {
-    font-family: 'Tahoma';
-    font-weight: normal;
-    font-size: 135%;
-    margin-top: 10px;
-    margin-bottom: 5px;
+    font: normal 150%/1.5em Tahoma, sans-serif;
+    color: #000;
+    margin: 15px 0;
+}
+h3  {
+    font: normal 125%/1.5em Tahoma, sans-serif;
+    color: #000;
 }
 ul.menu    {
     float: left;
@@ -87,31 +93,93 @@ ul.menu li ul li a:hover  {
     width: 485px;
     text-align: justify;
 }
-#home ul li {
+#partners li, #clients li   {
+    float: left;
+}
+#partners li	{
+    margin: 0 10px 10px 0;
+}
+#clients li {
+    margin: 0 30px 10px 0;
+}
+#partners a, #clients a	{
+    display: block;
+}
+#partners a {
+    height: 39px;
+}
+#elcometer   {
+    width: 125px;
+    background-image: url(images/elcometer_bw.jpg);
+}
+#elcometer:hover    {
+    background-image: url(images/elcometer.jpg);
+}
+#fike	{
+    width: 85px;
+    background-image: url(images/fike_bw.jpg);
+}
+#fike:hover {
+    background-image: url(images/fike.jpg);
+}
+#bdsensors  {
+    width: 120px;
+    background-image: url(images/bd_sensors_bw.jpg);
+}
+#bdsensors:hover    {
+    background-image: url(images/bd_sensors.jpg);
+}
+#iwtm	{
+    width: 115px;
+    background-image: url(images/iwtm.jpg);
+}
+#total, #shell, #saipem, #chevron   {
+    height: 72px;
+}
+#total	{
+    width: 56px;
+    background-image: url(images/total_bw.jpg);
+}
+#total:hover	{
+    background-image: url(images/total.jpg);
+}
+#shell	{
+    width: 62px;
+    background-image: url(images/shell_bw.jpg);
+}
+#shell:hover	{
+    background-image: url(images/shell.jpg);
+}
+#saipem	{
+    width: 132px;
+    background-image: url(images/saipem_bw.jpg);
+}
+#saipem:hover	{
+    background-image: url(images/saipem.jpg);
+}
+#chevron    {
+    width: 64px;
+    background-image: url(images/chevron_bw.jpg);
+}
+#chevron:hover	{
+    background-image: url(images/chevron.jpg);
+}
+#mobil	{
+    width: 199px;
+    height: 39px;
+    background-image: url(images/exxonmobil_bw.jpg);
+}
+#mobil:hover	{
+    background-image: url(images/exxonmobil.jpg);
+}
+#home ul li, #partners li, #clients li	{
     display: inline;
 }
 #home ul li.margin_right	{
     margin-right: 23px;
 }
-#about	{
-}
 #services .margin_right	{
     margin-right: 19px;
-}
-#services ul.menu   {
-}
-
-#footer	{
-    height: 95px;
-    background: url(images/copyrightArea_bg.jpg) repeat-x;
-    text-align: center;
-}
-#footer img {
-    margin-top: 40px;
-}
-.gradient   {
-    height: 29px;
-    background: url(images/pageContentBody_cap_bg.jpg) repeat-x;
 }
 .services_box	{
     float: left;
@@ -121,6 +189,14 @@ ul.menu li ul li a:hover  {
 .services_box .service_type {
     font-weight: normal;
     margin: 0;
+}
+#footer	{
+    height: 95px;
+    background: url(images/copyrightArea_bg.jpg) repeat-x;
+    text-align: center;
+}
+#footer img {
+    margin-top: 40px;
 }
 .clear-float	{
     clear: both;
