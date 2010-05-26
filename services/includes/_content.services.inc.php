@@ -1,8 +1,8 @@
 <div id="services" class="content_body">
-    <div class="page_title"><img src="../images/pageIndicator_services.jpg"/></div>
-    <div class="services_box margin_right">
-	<h2 class="service_type">Materials / Equipment Procurement</h2>
-	<ul class="services_list">
+    <h1><img src="../images/pageIndicator_services.jpg"/></h1>
+    <div class="box margin_right">
+	<h2>Materials / Equipment Procurement</h2>
+	<ul>
 	    <!--<li><a href="?s=oil_tools">Oil Tools</a></li>-->
 	    <li><a href="#">Oil Tools</a></li>
 	    <li><a href="#">Electrical Equipment</a></li>
@@ -15,18 +15,18 @@
 	    <li><a href="#">Line pipes &amp; fittings</a></li>
 	</ul>
     </div>
-    <div class="services_box margin_right">
+    <div class="box margin_right">
 	<h2 class="service_type">Consultancy Services</h2>
-	<ul class="services_list">
+	<ul>
 	    <li><a href="#">Oilfield Automation Services</a></li>
 	    <li><a href="#">Logistics and Supply Chain Consulting</a></li>
 	    <li><a href="#">Strategy Consulting</a></li>
 	    <li><a href="#">Specialized Technical Consulting</a></li>
 	</ul>
     </div>
-    <div class="services_box">
-	<h2 class="service_type">Onshore &amp; Offshore Engineering Services</h2>
-	<ul class="services_list">
+    <div class="box">
+	<h2>Onshore &amp; Offshore Engineering Services</h2>
+	<ul>
 	    <li><a href="#">Marine Logistics</a></li>
 	    <li><a href="#">Corrosion Protection</a></li>
 	    <li><a href="#">Pipeline Coatings</a></li>

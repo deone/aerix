@@ -64,7 +64,7 @@ ul.menu    {
     margin-right: 20px;
     width: 230px;
 }
-ul.menu a   {
+ul.menu a, .box a   {
     display: block;
     text-decoration: none;
     margin-top: 2px;
@@ -81,11 +81,11 @@ ul.menu .first, ul.menu ul    {
 ul.menu ul  {
     line-height: 1.6em;
 }
-ul.menu li ul li a  {
+ul.menu li ul li a, .box a  {
     background-color: #fff;
     color: #666;
 }
-ul.menu li ul li a:hover  {
+ul.menu li ul li a:hover, .box a:hover	{
     color: #000;
 }
 .body	{
@@ -178,17 +178,37 @@ ul.menu li ul li a:hover  {
 #home ul li.margin_right	{
     margin-right: 23px;
 }
+#values h2  {
+    line-height: 1em;
+    border: solid 1px #000;
+}
+#values h3   {
+    font-style: italic;
+    color: #aeaeae;
+    font-size: 110%;
+    margin-bottom: 5px;
+}
 #services .margin_right	{
     margin-right: 19px;
 }
-.services_box	{
+.box	{
     float: left;
     border: solid 1px #eee;
     width: 230px;
-}
-.services_box .service_type {
     font-weight: normal;
+}
+.box h2, .box ul    {
+    padding: 6px;
+}
+.box h2	{
+    background-color: #eee;
     margin: 0;
+    color:#e68200;
+    font-size: 90%;
+    line-height: 1em;
+}
+.box a	{
+    font-size: 90%;
 }
 #footer	{
     height: 95px;
@@ -202,30 +222,11 @@ ul.menu li ul li a:hover  {
     clear: both;
     float: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.contactAddress_container{
-	margin-bottom:10px;
+.tag   {
+    color: #000;
+    padding-right: 5px;
+    font-weight: bold;
 }
-.contactDetails_bold{
-	color:#000000;
-	font-weight:bold;
-}
-.contentArea_containerCell{
-	padding:20px 37px 20px 37px;
-}
-.details_container{
-	margin:0px 18px 0px 18px;
+address	{
+    margin-bottom: 10px;
 }
