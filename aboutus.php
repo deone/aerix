@@ -13,6 +13,5 @@
 	<? include( "__template.inc.php" ); ?>
     </body>
     <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/menu.js"></script>
     <script type="text/javascript" src="js/scroll.js"></script>
 </html>
