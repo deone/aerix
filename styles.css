@@ -68,11 +68,11 @@ ul.menu a, .box a   {
     display: block;
     text-decoration: none;
     margin-top: 2px;
+    line-height: 1.8em;
 }
 ul.menu .first	{
     background-color: #eee;
-    line-height: 2em;
-    color:#e68200;
+    color: #e68200;
 }
 ul.menu .first, ul.menu ul    {
     padding: 0 5px 0 5px;
@@ -179,10 +179,15 @@ ul.menu li ul li a:hover, .box a:hover	{
     margin-right: 23px;
 }
 #values h2  {
-    line-height: 1em;
-    border: solid 1px #000;
+    margin-bottom: 5px;
 }
-#values h3   {
+#values h2.first  {
+    margin-top: 0;
+}
+#values p   {
+    margin-bottom: 5px;
+}
+dt  {
     font-style: italic;
     color: #aeaeae;
     font-size: 110%;
