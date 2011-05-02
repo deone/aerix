@@ -24,6 +24,8 @@
 	    <div class="gradient"></div>
 	    <? @include( "includes/" . $contentFile ); ?>
 	</div>
-	<div id="footer"><img src="images/copyright_image.jpg"/></div>
+	<div id="footer">
+	    <p>Copyright &copy; 2011. Aerix Global Solutions.</p>
+	</div>
     </div>
 </div>

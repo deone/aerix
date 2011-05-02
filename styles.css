@@ -198,12 +198,12 @@ dt  {
 }
 .box	{
     float: left;
-    border: solid 1px #eee;
     width: 230px;
     font-weight: normal;
 }
 .box h2, .box ul    {
     padding: 6px;
+    border: solid 1px #eee;
 }
 .box h2	{
     background-color: #eee;
@@ -212,16 +212,21 @@ dt  {
     font-size: 90%;
     line-height: 1em;
 }
+.box h2.below	{
+    margin-top: 20px;
+}
 .box a	{
     font-size: 90%;
 }
 #footer	{
-    height: 95px;
+    height: 55px;
     background: url(images/copyrightArea_bg.jpg) repeat-x;
     text-align: center;
+    padding-top: 40px;
 }
-#footer img {
-    margin-top: 40px;
+#footer p   {
+    color: #000;
+    font-size: 0.93em;
 }
 .clear-float	{
     clear: both;
